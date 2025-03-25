@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-#include "config.h"
+
 
 extern "C" void dsyev_( char *, char *, int *, double *, int *, double *, double *, int *, int *);
 
