@@ -1,5 +1,7 @@
 On my simple Centos 7 system (with lapack and blas installed) I:
 
+gunzip step5_assembly.psf.gz
+
 make -f Makefile.linux
 
 ./waterPathMGTA step5_assembly.psf frame.dcd
